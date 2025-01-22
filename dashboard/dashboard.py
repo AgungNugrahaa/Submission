@@ -5,7 +5,7 @@ import streamlit as st
 import time
 
 # Membaca data
-day_df = pd.read_csv('/Users/agungnugraha/Documents/submission/data/day.csv')
+day_df = pd.read_csv('/Users/agungnugraha/Documents/day.csv')
 hour_df = pd.read_csv('/Users/agungnugraha/Documents/SQL/main/hour.csv')
 
 # Mengubah kolom tanggal menjadi datetime
